@@ -2,6 +2,8 @@
 
 Windows desktop package with the full runtime build.
 
+Source code: https://github.com/JHKS24/AutoCensoR
+
 ## Download
 
 The full package is split into multiple release assets because it is larger
