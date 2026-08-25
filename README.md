@@ -22,8 +22,8 @@ Extract `AutoCensoR_Full.zip`, then run:
 AutoCensoR_Full\AutoCensoR_Full.exe
 ```
 
-The current v0.1.0 release assets were refreshed on 2026-08-25 with the Windows
-window interaction fixes. Existing v0.1.0 users can apply the much smaller
+The v0.1.1 release includes the Windows window interaction fixes. Existing
+v0.1.0 users can apply the 126KB
 [patch file](https://jhks24.github.io/AutoCensoR-Site/patch.html) instead of
 downloading and recombining the complete package again.
 
