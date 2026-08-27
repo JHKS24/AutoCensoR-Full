@@ -1,11 +1,44 @@
-AutoCensor vNext
+AutoCensoR Full
 
-This repository contains source code only. Model weights, private datasets,
-personal paths, account links, API keys, telemetry, and cloud-upload code are
-not included.
+This package contains the Windows full desktop runtime for AutoCensoR,
+including the GPU-capable ML backend. Model weights, private datasets,
+personal paths, account links, API keys, telemetry, and cloud-upload code
+are not included.
 
-No fonts are bundled. Korean and English UI text is stored as UTF-8 and rendered
-with operating-system font fallbacks.
+Korean and English UI text is stored as UTF-8. The app uses operating-system
+font fallbacks for the interface. Some bundled third-party packages may include
+their own fonts or license files for their internal runtime needs.
 
-Runtime dependencies are installed separately and are not relicensed by this
-project. Review dependency licenses before shipping a bundled runtime.
+Runtime dependencies are bundled under the application `_internal` directory.
+Those dependencies are not relicensed by this project. Review the included
+package metadata and license files before redistributing this package.
+
+
+Licensing of this bundled distribution
+======================================
+
+The AutoCensoR source code is published under the MIT License at
+https://github.com/JHKS24/AutoCensoR and remains available under the MIT
+License. Distributing it in this bundle does not change the license of the
+source project.
+
+This package additionally bundles the following AGPL-3.0 licensed packages
+under `_internal`:
+
+    ultralytics         8.4.53      AGPL-3.0
+    ultralytics-thop    2.0.19      AGPL-3.0
+
+Per this project's recorded AGPL boundary decision, a downstream distribution
+that bundles the AGPL runtime complies with AGPL-3.0 for that distribution.
+Accordingly, this binary package as a whole is offered under the GNU Affero
+General Public License, version 3.
+
+Corresponding source
+--------------------
+
+    AutoCensoR          https://github.com/JHKS24/AutoCensoR
+    ultralytics         https://github.com/ultralytics/ultralytics/tree/v8.4.53
+    ultralytics-thop    https://github.com/ultralytics/thop/tree/v2.0.19
+
+The complete AGPL-3.0 license text is included in this package at
+`_internal/ultralytics-8.4.53.dist-info/licenses/LICENSE`.
